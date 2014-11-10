@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+    
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:orientation="horizontal" >
+
+	    <Button
+		    android:id="@+id/buttonA"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/buttonAText" />
+	
+	    <Button
+		    android:id="@+id/buttonB"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/buttonBText" />
+    </LinearLayout>
+
+
+<!-- 	<fragment -->
+<!--         android:name="com.example.fragmentactivitytester.fragments.FragmentA" -->
+<!--         android:id="@+id/fooFragment" -->
+<!--         android:layout_width="match_parent"  -->
+<!--         android:layout_height="match_parent" /> -->
+
+	<FrameLayout
+	    android:id = "@+id/frag_container"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/buttonLayout">
+	</FrameLayout>
+
+</RelativeLayout>

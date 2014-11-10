@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">FragmentActivityTester</string>
+    <string name="fragmentAButton">Click Me!</string>
+    <string name="startFragmentActivityReplace">Replace</string>
+    <string name="startFragmentActivityHide">Show/Hide</string>
+    <string name="buttonAText">Start Fragment A</string>
+    <string name="buttonBText">Start Fragment B</string>
+    <string name="fragmentDefaultText">No Fragment Selected</string>
+
+</resources>
